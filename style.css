@@ -1,0 +1,108 @@
+/* style.css */
+
+html, body {
+    height: 100vh;
+    margin: 0;
+  }
+
+  /* Background only on index page */
+body.home {
+    background: url("images/SiteFiles/bkg\ copy\ 2.png") no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  body {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fbc64a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main {
+    flex: 1;               /* take up remaining space */
+    overflow-y: auto; 
+    display: block;
+    justify-content: center;   /* keep it centered horizontally */
+    align-items: flex-start;   /* push to top instead of center */
+    padding-top: 40px; 
+    font-size: .8em;
+  }
+
+  .content {
+    max-width: 650px;
+    margin: 20px auto;
+    padding: 0 20px;   
+    color: #fbc64a;
+    font-size: .8rem;
+    line-height: 1.1rem;
+  }
+  
+  main ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  /* main li {
+    margin: 10px 0;
+  }
+   */
+ a {
+    color: #fbc64a;
+    /* color:rgb(255, 200, 0); */
+    text-decoration: underline;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: rgb(255, 68, 0);
+  }
+  
+  /* style.css */
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  footer {
+    position: sticky;
+    font-size: .5rem;
+    bottom: 0;
+    background: transparent; /* background stays visible */
+    padding-top: 10px;
+    display: flex;
+    justify-content: center; /* center links horizontally */
+  }
+  
+  .footer-links {
+    color: darkorange;
+    display: flex;
+    gap: 15px;   /* spacing between links */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .image-container {
+    max-width: 900px;      /* optional: limit container width */
+    margin: 40px auto;     /* center horizontally */
+    padding: 0 20px;       /* small padding for phones */
+    display: flex;
+    flex-wrap: wrap;       /* allow wrapping */
+    gap: 10px;             /* space between images */
+    justify-content: center;    /* center images if smaller */
+  }
+  
+  .image-container img {
+    max-width: 100%;   /* scale down on smaller screens */
+    max-height: auto;      /* keep aspect ratio */
+    display: block;    /* remove inline gaps */
+    /* Allow images to sit side-by-side if they fit */
+    flex: 0 1 auto;
+  }
+  
