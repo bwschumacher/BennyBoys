@@ -89,7 +89,7 @@ html, body {
   }
 
   .image-container {
-    max-width: 900px;      /* optional: limit container width */
+    max-width: 700px;      /* optional: limit container width */
     margin: 40px auto;     /* center horizontally */
     padding: 0 20px;       /* small padding for phones */
     display: flex;
