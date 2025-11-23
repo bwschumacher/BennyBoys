@@ -71,7 +71,7 @@ html, body {
   
   footer {
     position: sticky;
-    font-size: .5rem;
+    font-size: .8rem;
     bottom: 0;
     background: transparent; /* background stays visible */
     padding-top: 10px;
